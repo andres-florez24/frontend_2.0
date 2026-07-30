@@ -55,8 +55,8 @@ button {
     width: 150px;
     height: 60px;
     padding: 10px;
-    color: white;
-    background-color: black;
+    color: rgb(104, 99, 99);
+    background-color: rgb(202, 197, 197);
     font-size: 22px;
     border-radius: 20px;
     border: none;
@@ -77,9 +77,9 @@ button {
     font-size: 25px;
     padding: 10px;
     margin-top: 10px;
-    color: rgb(23, 14, 14);
-    background-color: beige;
-    border:  2px solid black;
+    color: rgb(25, 21, 21);
+    background-color: rgba(73, 73, 69, 0.296);
+    border:  2px solid rgb(20, 18, 18);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ button {
 
 .tarea.completada {
     text-decoration: line-through;
-    background-color: black;
+    background-color: rgb(172, 158, 158);
     border: none;
 }
 
@@ -109,15 +109,16 @@ i{
     
 }
 .icono-completar {
-    color: rgb(24, 20, 15);
+      color: rgba(83, 81, 80, 0.66);
 
 }
 
 .icono-eliminar{
-    color: rgb(20, 20, 18);
+     color: rgba(83, 81, 80, 0.66);
 }
 
 .icono-completar:hover,
 .icono-eliminar:hover{
-background-color: grey;
+background-color: rgb(221, 214, 214);
+border-radius:10px;
 }
