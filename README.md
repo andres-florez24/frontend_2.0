@@ -28,3 +28,45 @@ D.O.M/
 ├── app.js            # Lógica principal y manipulación del DOM
 ├── index.html        # Estructura principal
 └── styles.css        # Estilos visuales
+
+
+# proyecto LocalStore
+
+LocalStore es una aplicación web simple para registrar productos y guardarlos en el navegador mediante LocalStorage. El objetivo principal del proyecto es practicar el manejo de formularios, validación básica de datos y persistencia de información en el cliente.
+
+## Características
+
+- Formulario para ingresar datos de un producto.
+- Validación de campos obligatorios.
+- Vista previa de la imagen ingresada por URL.
+- Guardado de productos en LocalStorage del navegador.
+- Diseño simple con Bootstrap y CSS.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+
+## Estructura del proyecto
+
+- `index.html`: contiene la estructura del formulario y la interfaz principal.
+- `localStore.js`: incluye la lógica para validar y guardar los productos.
+- `style.css`: define los estilos del proyecto.
+
+## Cómo usar
+
+1. Abre el archivo `index.html` en tu navegador.
+2. Completa los datos del producto (nombre, precio, cantidad e imagen).
+3. Haz clic en el botón "Guardar".
+4. El producto se almacenará en LocalStorage y quedará disponible en la sesión del navegador.
+
+## Requisitos
+
+- Un navegador moderno como Chrome, Edge o Firefox.
+
+## Nota
+
+Este proyecto es de tipo educativo y fue creado para practicar el uso de LocalStorage en JavaScript.
+
